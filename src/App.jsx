@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Router basename="/cloudinary-client"> 
       <Routes>
-        <Route path="/" element={<Home />} /> 
+        <Route path="/" element={<Home />} />
         <Route path="/upload" element={<Upload />} />
       </Routes>
     </Router>
