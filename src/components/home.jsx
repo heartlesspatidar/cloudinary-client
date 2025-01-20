@@ -10,7 +10,7 @@ const Home = () => {
       </p>
       <div className="upload-info">
         <h2>Upload Your Files</h2>
-        <p>Visit the <a href="/cloudinary-client/upload">/upload</a> route to start storing your files!</p>
+        <p>Visit the <a href="/cloudinary-client/Upload">/Upload</a> route to start storing your files!</p>
       </div>
     </div>
   );

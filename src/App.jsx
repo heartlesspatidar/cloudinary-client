@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Upload from './components/upload'; 
-import Home from './components/home';
+import Upload from './components/Upload';
+import Home from './components/Home';
 
 const App = () => {
   return (
-    <Router basename="/cloudinary-client"> {/* Ensure this is set correctly */}
+    <Router basename="/cloudinary-client">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/upload" element={<Upload />} />
