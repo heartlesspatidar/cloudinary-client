@@ -1,5 +1,8 @@
 import React from 'react';
 import './home.css';
+import { Link } from 'react-router-dom';
+
+
 
 const Home = () => {
   return (
@@ -10,7 +13,7 @@ const Home = () => {
       </p>
       <div className="upload-info">
         <h2>Upload Your Files</h2>
-        <p>Visit the <a href="/cloudinary-client/Upload">/Upload</a> route to start storing your files!</p>
+        <p>Visit the <Link to="/Upload">Upload</Link> route to start storing your files!</p>
       </div>
     </div>
   );
