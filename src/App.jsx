@@ -5,10 +5,10 @@ import Home from './components/home';
 
 const App = () => {
   return (
-    <Router basename="/cloudinary-client"> 
+    <Router basename="/cloudinary-client">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/upload" element={<Upload />} />
+        <Route path="upload" element={<Upload />} /> 
       </Routes>
     </Router>
   );
